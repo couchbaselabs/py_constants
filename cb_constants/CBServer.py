@@ -23,6 +23,7 @@ class CbServer(object):
         FTS_MEM_QUOTA = "ftsMemoryQuota"
         CBAS_MEM_QUOTA = "cbasMemoryQuota"
         EVENTING_MEM_QUOTA = "eventingMemoryQuota"
+        N1QL_MEM_QUOTA = "queryMemoryQuota"
 
         class MinRAMQuota(object):
             KV = 256
