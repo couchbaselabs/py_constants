@@ -117,6 +117,7 @@ class CbServer(object):
     transaction_collection = "_transactions"
 
     total_vbuckets = 1024
+    magma_default_vbuckets = 128
 
     # Name length limits
     max_bucket_name_len = 100
