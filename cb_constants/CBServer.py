@@ -50,6 +50,11 @@ class CbServer(object):
         MIN_TIMEOUT = 5
         MAX_TIMEOUT = 3600
 
+    class IndexStorageMode:
+        PLASMA = "plasma"
+        MAGMA = "magma"
+        FOREST_DB = "forestdb"
+
     class Serverless(object):
         KV_SubCluster_Size = 3
 
