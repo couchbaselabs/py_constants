@@ -7,7 +7,7 @@ class CbServer(object):
         FTS = "fts"
         EVENTING = "eventing"
         BACKUP = "backup"
-        COLUMNAR = "columnar"
+        COLUMNAR = "analytics"
         SERVICELESS = None
 
         @classmethod
