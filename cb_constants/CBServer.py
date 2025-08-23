@@ -140,6 +140,7 @@ class CbServer(object):
     # Encryption at rest default settings
     encryption_at_rest_dek_rotation_interval = 2592000
     secret_rotation_interval_in_seconds = 2592000
+    encryption_at_rest_dek_lifetime_interval = 31536000
 
     # Max supported system_event_logs
     sys_event_min_logs = 3000
